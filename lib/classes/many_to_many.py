@@ -152,7 +152,7 @@ class Concert:
 # Method to check if the concert is a hometown show for the band
     def hometown_show(self):
         return self.venue.city == self.band.hometown
-        
+
 # Method to generate an introduction for the concert
     def introduction(self):
         return f"Hello {self.venue.city}!!!!! We are {self.band.name} and we're from {self.band.hometown}"
